@@ -1,0 +1,89 @@
+/* styles.css*/
+html /*{   height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 90px;
+    background-color:#ffffff;  
+    
+}
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 960px;
+}
+.name_of_guy {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.containermenu{
+    display: flex;
+    padding: 30px;
+}
+.about_guy, .portfolio_page {
+display: flex;
+justify-content: space-evenly;
+font-style: italic;
+padding: 0 12px 0 12px;
+border-right: 1px solid black; 
+}
+.page_me {
+display: flex;
+justify-content: space-evenly;
+font-style: italic;
+padding: 0 0 0 10px;
+
+}
+
+    body {
+        background-image: url(../images/white-waves.png);
+        margin:0;
+    font-size: 18px;
+    color: #333333;
+}
+
+.container960 {
+    max-width:960px;
+    margin: 0 auto;
+    max-height: 800px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border: 3px black;
+}
+div.img{
+    float: left;
+    border: 3px black;
+    margin-right: 5px;
+}
+
+.me {
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+    border:5px solid black;     
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+    font-size: 23px;
+    font-weight: bold;
+  }
+#footer_id {
+    margin: 45px
+}
